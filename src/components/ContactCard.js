@@ -14,14 +14,14 @@ const CardContact = (props) =>{
       <div className="emailcontact">{ email}</div>
       
       </div>
-      <div class="extra">
+      <div class="extra rem_item"> 
         <div class="ui right floated">
                 <i className="alternate outline icon trash" style={{color:"red", MarginTop: "10px" }}
             onClick={ ()=> props.clickHandler(id)}
             ></i>
         </div>
       </div>
-  </div>
+  </div> 
 
    );
 
